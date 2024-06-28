@@ -28,7 +28,7 @@ change_color() {
 }
 #only changing some colors to gruvbox
 if  [[ $1 = "--amber" ]]; then
-	AC="#ffb300"
+	AC="#d79921"
 	change_color
 elif  [[ $1 = "--blue" ]]; then
 	AC="#458588"
@@ -49,40 +49,40 @@ elif  [[ $1 = "--deep-purple" ]]; then
 	AC="#5e35b1"
 	change_color
 elif  [[ $1 = "--green" ]]; then
-	AC="#43a047"
+	AC="#98971a"
 	change_color
 elif  [[ $1 = "--gray" ]]; then
-	AC="#757575"
+	AC="#928374"
 	change_color
 elif  [[ $1 = "--indigo" ]]; then
 	AC="#3949ab"
 	change_color
 elif  [[ $1 = "--light-blue" ]]; then
-	AC="#039be5"
+	AC="#83a598"
 	change_color
-elif  [[ $1 = "--light-green" ]]; then
-	AC="#7cb342"
+elif  [[ $1 = "--light-green-aqua" ]]; then
+	AC="#b8bb26"
 	change_color
 elif  [[ $1 = "--lime" ]]; then
-	AC="#c0ca33"
+	AC="#b8bb26"
 	change_color
 elif  [[ $1 = "--orange" ]]; then
-	AC="#fb8c00"
+	AC="#d65d0e"
 	change_color
 elif  [[ $1 = "--pink" ]]; then
 	AC="#d81b60"
 	change_color
 elif  [[ $1 = "--purple" ]]; then
-	AC="#8e24aa"
+	AC="#d3869b"
 	change_color
 elif  [[ $1 = "--red" ]]; then
-	AC="#e53935"
+	AC="#cc241d"
 	change_color
 elif  [[ $1 = "--teal" ]]; then
 	AC="#00897b"
 	change_color
 elif  [[ $1 = "--yellow" ]]; then
-	AC="#fdd835"
+	AC="#fabd2f"
 	change_color
 else
 	cat <<- _EOF_
