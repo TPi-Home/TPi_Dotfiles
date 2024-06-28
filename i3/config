@@ -187,32 +187,17 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #gruvbox
-client.focused          #458588 #458588 #ebdbb2 #488588
-client.focused_inactive #504945 #404945 #404945 #333333
-client.unfocused        #665c54 #665c54 #ebdbb2 #665c54
-client.urgent           #fe8019 #fe8019 #fbf1c7 #d65d0e
-
-
-#purple
 # class                 border  bground text    indicator child_border
-#client.focused          #902099 #661377 #FFFFFF #902099   #661377
-#client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
-#client.unfocused        #333333 #222222 #888888 #292D2E   #222222
-#client.urgent           #2F343A #A129FF #FFFFFF #A129FF   #A129FF
-#client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
-#client.background       #FFFFFF
-#bar {
-# colors {
-#   background #000000
-#    statusline #FFFFFF
-#    separator  #666666
-#    focused_workspace  #902099 #661377 #FFFFFF
-#    active_workspace   #333333 #222222 #FFFFFF
-#    inactive_workspace #333333 #222222 #888888
-#    urgent_workspace   #2F343A #A129FF #FFFFFF
-#    binding_mode       #2F343A #A129FF #FFFFFF
-#  }
-#}
+client.focused          #282828 #458588 #EBDBB2 #458588   #458588
+client.focused_inactive #282828 #689D6A #EBDBB2 #689D6A   #689D6A
+client.unfocused        #282828 #504945 #EBDBB2 #504945   #504945
+client.urgent           #282828 #B16286 #EBDBB2 #B16286   #B16286
+client.placeholder      #282828 #504945 #EBDBB2 #504945   #504945
+
+client.background       #458588
+
+
 exec_always --no-startup-id /home/tyler/.config/polybar/launch.sh --hack
-bindsym $mod+d exec --no-startup-id rofi -show drun
-#bindsym $mod+d exec "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#7E36D1' -sf '#EEEEEE' -fn 'IntoneMono Nerd Font -11' -p 'Exec:'"
+#bindsym $mod+d exec --no-startup-id rofi -show drun
+#gruvbox dmenu
+bindsym $mod+d exec "dmenu_run -nf '#EBDBB2' -nb '#282828' -sb '#504945' -sf '#EBDBB2' -fn 'monospace-10' -p 'Exec:'"
