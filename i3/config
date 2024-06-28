@@ -186,15 +186,21 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#gruvbox
+client.focused          #458588 #458588 #ebdbb2 #488588
+client.focused_inactive #504945 #404945 #404945 #333333
+client.unfocused        #665c54 #665c54 #ebdbb2 #665c54
+client.urgent           #fe8019 #fe8019 #fbf1c7 #d65d0e
+
+
+#purple
 # class                 border  bground text    indicator child_border
-client.focused          #902099 #661377 #FFFFFF #902099   #661377
-client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
-client.unfocused        #333333 #222222 #888888 #292D2E   #222222
-client.urgent           #2F343A #A129FF #FFFFFF #A129FF   #A129FF
-client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
-
-client.background       #FFFFFF
-
+#client.focused          #902099 #661377 #FFFFFF #902099   #661377
+#client.focused_inactive #333333 #5F676A #FFFFFF #484E50   #5F676A
+#client.unfocused        #333333 #222222 #888888 #292D2E   #222222
+#client.urgent           #2F343A #A129FF #FFFFFF #A129FF   #A129FF
+#client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+#client.background       #FFFFFF
 #bar {
 # colors {
 #   background #000000
@@ -208,5 +214,5 @@ client.background       #FFFFFF
 #  }
 #}
 exec_always --no-startup-id /home/tyler/.config/polybar/launch.sh --hack
-
-bindsym $mod+d exec "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#7E36D1' -sf '#EEEEEE' -fn 'IntoneMono Nerd Font -11' -p 'Exec:'"
+bindsym $mod+d exec --no-startup-id rofi -show drun
+#bindsym $mod+d exec "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '#7E36D1' -sf '#EEEEEE' -fn 'IntoneMono Nerd Font -11' -p 'Exec:'"
