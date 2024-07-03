@@ -13,3 +13,7 @@ I am sick of redoing my config files when I migrate systems, so I will put them 
 To Do:
 
 Change gruvbox rofi theme colors in /usr/share/rofi/themes and nvim colors.
+
+lvim
+
+Install mirrorcache
