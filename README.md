@@ -17,3 +17,5 @@ Change gruvbox rofi theme colors in /usr/share/rofi/themes and nvim colors.
 lvim
 
 Install mirrorcache
+
+gnome-software for flatpaks
