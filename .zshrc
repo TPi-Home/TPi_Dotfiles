@@ -19,4 +19,5 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 # User configuration
 export LANG=en_US.UTF-8
-alias nv="nvim" 
+alias nv="lvim"
+alias nvim="lvim"
