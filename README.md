@@ -1,4 +1,5 @@
 # TPi_linux_configs
+## I am moving to NixOS now so future setups will just need a couple configuration files. I also am not willing to use X11 in 2026, the great year of the Linux desktop!
 A work in progress gruvbox theme for i3-wm and polybar.
 
 
